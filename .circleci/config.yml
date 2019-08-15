@@ -7,23 +7,31 @@ jobs:
       - checkout
       - run: echo "A first hello"
   postmark:
-    machine: true
+    docker:
+      - image: circleci/ruby:2.4.1
     steps:
       - checkout
-      - run:
-          name: Install Postmark-cli
-          command: |
-            npm i postmark-cli -g
-      - run:
-          name: Push templates to Postmark
-          command: |
-            postmark templates push ./postmark -f
+      - run: echo "A master hello"
+
+#  postmark:
+#    machine: true
+#    steps:
+#      - checkout
+#      - run:
+#          name: Install Postmark-cli
+#          command: |
+#            npm i postmark-cli -g
+#      - run:
+#          name: Push templates to Postmark
+#          command: |
+#            postmark templates push ./postmark -f
+
 workflows:
   version: 2
   build_and_postmark:
     jobs:
       - build
       - postmark:
-        filters:
-          branches:
-            only: master
+          filters:
+            branches:
+              only: master
