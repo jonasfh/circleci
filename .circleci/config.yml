@@ -13,4 +13,4 @@ jobs:
       - run:
           name: Push templates to Postmark
           command: |
-            postmark templates push ./emails -f
+            postmark templates push ./postmark -f
