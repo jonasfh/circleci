@@ -23,7 +23,7 @@ workflows:
   build_and_postmark:
     jobs:
       - build
-      - postmark
+      - postmark:
         filters:
           branches:
             only: master
