@@ -22,7 +22,7 @@ Kontakt oss på {{ support_email }} eller telefon {{ support_phone }} hvis du ha
 Ha en fin dag!
 
 Med vennlig hilsen
-Teamet hos {{ product_name }}
+{{ product_name }}
 
 Hvis du har problemer med lenken over kan du kopiere følgende lenke inn i nettleseren din:
 
