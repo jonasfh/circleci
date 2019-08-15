@@ -1,0 +1,28 @@
+Bruk denne lenken for å sette et nytt passord. Lenken er bare gyldig i 24 timer.
+
+{{ product_name }} ( {{ product_url }} )
+
+************
+Hei {{ name }},
+************
+
+Du ba nylig om å få satt nytt passord hos {{ product_name }}. Bruk lenken under for å sette nytt passord.
+
+Sett nytt passord ( {{ action_url }} )
+
+Brukernavnet du skal benytte ved innlogging er <b>{{ username }}</b>.
+
+Hvis du ikke har bedt om å få resatt passordet kan du trygt ignorere denne e-posten. Kontakt oss på {{ support_email }} hvis du har spørsmål.
+
+Ha en fin dag!
+
+Med vennlig hilsen
+{{ product_name }}
+
+Hvis du har problemer med lenken over kan du kopiere følgende lenke inn i nettleseren din:
+
+{{ action_url }}
+
+© 2019 {{ product_name }}.
+
+{{ company_address }}

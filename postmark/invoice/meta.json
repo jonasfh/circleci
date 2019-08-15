@@ -1,0 +1,7 @@
+{
+  "Name": "Faktura",
+  "Alias": "invoice",
+  "Subject": "Faktura fra {{product_name}} for {{billing_name}}",
+  "TemplateType": "Standard",
+  "LayoutTemplate": null
+}

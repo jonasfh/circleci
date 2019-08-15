@@ -1,0 +1,7 @@
+{
+  "Name": "Betalingsinformasjon",
+  "Alias": "new-membership",
+  "Subject": "Betalingsinformasjon for ditt nye medlemskap hos {{product_name}}",
+  "TemplateType": "Standard",
+  "LayoutTemplate": null
+}

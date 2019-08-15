@@ -1,0 +1,7 @@
+{
+  "Name": "Password reset",
+  "Alias": "password-reset",
+  "Subject": "Sett nytt passord hos {{product_name}}",
+  "TemplateType": "Standard",
+  "LayoutTemplate": null
+}

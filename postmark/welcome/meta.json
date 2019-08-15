@@ -1,0 +1,7 @@
+{
+  "Name": "Velkommen som bruker",
+  "Alias": "welcome",
+  "Subject": "Velkommen som bruker hos {{product_name}}",
+  "TemplateType": "Standard",
+  "LayoutTemplate": null
+}

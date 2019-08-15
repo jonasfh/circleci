@@ -1,0 +1,33 @@
+Bruk denne lenken for å sette et passord. Lenken er bare gyldig i 24 timer.
+
+{{ product_name }} ( {{ product_url }} )
+
+************
+Hei {{ name }},
+************
+
+Du har fått tildelt en bruker hos {{ product_name }}. Bruk lenken under for å sette et passord.
+
+Sett passord ( {{ action_url }} )
+
+Brukernavnet som du skal benytte ved pålogging er {{ username }}.
+
+### Innsending av førerkort ###
+For å bli godkjent som bruker, må du sende oss bilde av gydlig førerkort til
+forerkort@dele.no. Deretter sender vi deg medlemskortet som du trenger for å åpne
+og låse reserverte biler.
+
+Kontakt oss på {{ support_email }} eller telefon {{ support_phone }} hvis du har spørsmål.
+
+Ha en fin dag!
+
+Med vennlig hilsen
+Teamet hos {{ product_name }}
+
+Hvis du har problemer med lenken over kan du kopiere følgende lenke inn i nettleseren din:
+
+{{ action_url }}
+
+© 2019 {{ product_name }}.
+
+{{ company_address }}

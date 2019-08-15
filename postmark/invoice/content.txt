@@ -1,0 +1,31 @@
+************
+Faktura fra {{ product_name }}
+************
+
+Vedlagt følger faktura fra {{ product_name }} for medlem nr {{ member_no }}, {{ billing_name }}. 
+
+Du kan betale fakturaen ved hjelp av informasjonen i denne eposten eller laste ned detaljert spesifikasjon 
+som PDF her: {{ action_url }} .
+
+Fakturainformasjon
+--------------------
+Medlemsnr:      {{ member_no }}
+Fakturadato:    {{ invoice_date }}
+Leveringsdato:	{{ delivery_date }}
+Din referanse:  {{ your_reference }}
+
+Kontonr:        {{ billing_bank_account }}
+KID:            {{ invoice_reference }}
+Forfallsdato:   {{ due_date }}
+Beløp:	        {{ total_amount }}
+
+Kontakt oss på {{ support_email }} eller telefon {{ support_phone }} hvis du har spørsmål.
+
+
+Med vennlig hilsen
+{{ product_name }}
+
+
+© 2019 {{ product_name }}.
+
+{{ company_address }}

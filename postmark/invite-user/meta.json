@@ -1,0 +1,7 @@
+{
+  "Name": "Invite user",
+  "Alias": "invite-user",
+  "Subject": "Invitasjon til å bli bruker av medlemskapet til {{membership_name}} hos {{product_name}}",
+  "TemplateType": "Standard",
+  "LayoutTemplate": null
+}

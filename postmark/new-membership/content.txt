@@ -1,0 +1,27 @@
+************
+Hei {{ name }},
+************
+
+Velkommen som medlem hos hos {{ product_name }}. Ditt medlemsnummer er {{ member_no }}. For at ditt medlemskap skal bli aktivert
+må du betale andelsinnskudd og medlemsavgift for de første seks månedene.
+
+Andelsinnskuddet er {{ deposit }} kr. Dette blir tilbakebetalt ved utmelding. Månedsavgiften er {{ monthly_fee }} kr/mnd.
+
+Betalingsinformasjon
+--------------------
+Kontonummer:  6001.07.85351
+Beløp:        {{ total }} kr
+Melding:      Innmelding medlemsnummer {{ member_no }}
+
+Kontakt oss på {{ support_email }} eller telefon {{ support_phone }} hvis du har spørsmål.
+
+Velkommen til oss!
+
+
+Med vennlig hilsen
+{{ product_name }}
+
+
+© 2019 {{ product_name }}.
+
+{{ company_address }}
