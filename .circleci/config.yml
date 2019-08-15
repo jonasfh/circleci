@@ -7,8 +7,6 @@ jobs:
       - checkout
       - run: echo "A first hello"
   postmark:
-    branches:
-      only: master
     machine: true
     steps:
       - checkout
@@ -26,3 +24,6 @@ workflows:
     jobs:
       - build
       - postmark
+        filters:
+          branches:
+            only: master
