@@ -12,12 +12,10 @@ jobs:
       - checkout
       - run:
           name: Install Postmark-cli
-          command: |
-            npm i postmark-cli -g
+          command: npm i postmark-cli -g
       - run:
           name: Push templates to Postmark
-          command: |
-            postmark templates push ./postmark -f
+          command: postmark templates push ./postmark -f
 
 workflows:
   version: 2
