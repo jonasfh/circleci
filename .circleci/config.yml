@@ -31,3 +31,7 @@ workflows:
       - postmark:
           requires:
             - postmark_approval
+          filters:
+              branches:
+                only: master
+
