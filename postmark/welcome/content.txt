@@ -6,7 +6,7 @@ Bruk denne lenken for å sette et passord. Lenken er bare gyldig i 24 timer.
 Hei {{ name }},
 ************
 
-Du har fått tildelt en bruker hos {{ product_name }}. Bruk lenken under for å sette passord.
+Du har fått tildelt en bruker hos {{ product_name }}. Bruk lenken under for å sette et passord.
 
 Sett passord ( {{ action_url }} )
 
