@@ -24,7 +24,10 @@ workflows:
   build_and_postmark:
     jobs:
       - build
+      - postmark_approval:
+          requires:
+            - build
+          type: approval
       - postmark:
-          filters:
-            branches:
-              only: master
+          requires:
+            - postmark_approval
