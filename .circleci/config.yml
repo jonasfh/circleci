@@ -26,9 +26,9 @@ workflows:
           type: approval
           requires:
             - build
-      - postmark:
-          requires:
-            - approve-postmark
           filters:
               branches:
                 only: master
+      - postmark:
+          requires:
+            - approve-postmark
