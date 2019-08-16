@@ -24,7 +24,7 @@ workflows:
   build_and_postmark:
     jobs:
       - build
-      - approve_postmark
+      - approve_postmark:
           type: approval
       - postmark:
           requires:
